@@ -177,6 +177,7 @@ class customer extends Thread{
 					BufferedWriter br =new BufferedWriter(new FileWriter("C:\\Users\\Administrator\\Desktop\\write.txt"));
 					while(queue.peek() != null) {
 						System.out.println("写.......");
+						//br.write(queue.poll());
 						br.write(queue.poll());
 						br.newLine();
 								//				br.flush();
