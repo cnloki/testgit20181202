@@ -181,7 +181,9 @@ class customer extends Thread{
 						br.flush();
 					}
 					br.close();
+					//br.close();
 					queue.notifyAll();
+					//queue.notifyAll();
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
