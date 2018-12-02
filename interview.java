@@ -179,6 +179,7 @@ class customer extends Thread{
 						System.out.println("写.......");
 						br.write(queue.poll());
 						br.newLine();
+								//				br.flush();
 						br.flush();
 					}
 					br.close();
