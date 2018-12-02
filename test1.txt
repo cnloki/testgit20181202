@@ -2,3 +2,4 @@ this is a test text.
 ++
 this is a branch called dev
 ++
+Creating a new branch is quick AND simple.
