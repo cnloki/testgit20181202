@@ -188,6 +188,7 @@ class customer extends Thread{
 					queue.notifyAll();
 					//queue.notifyAll();
 				} catch (Exception e) {
+					//e.printStackTrace();
 					e.printStackTrace();
 				}
 				
