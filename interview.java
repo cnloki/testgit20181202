@@ -174,6 +174,7 @@ class customer extends Thread{
 				//写数据
 				//try {
 				try {
+					//BufferedWriter br =new BufferedWriter(new FileWriter("C:\\Users\\Administrator\\Desktop\\write.txt"));
 					BufferedWriter br =new BufferedWriter(new FileWriter("C:\\Users\\Administrator\\Desktop\\write.txt"));
 					while(queue.peek() != null) {
 						System.out.println("写.......");
